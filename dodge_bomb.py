@@ -84,7 +84,7 @@ def main():
         kk_rct.move_ip(sum_mv)
         if check_bound(kk_rct) != (True, True):
             kk_rct.move_ip(-sum_mv[0], -sum_mv[1])
-
+        # こうかとんの向きを変更
         if tuple(sum_mv) in kk_imgs:
             kk_img = kk_imgs[tuple(sum_mv)]
 
